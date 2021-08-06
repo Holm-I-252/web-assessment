@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1>Hello World</h1>
+		<!-- insert hello world here -->
+
+		<img src='SwolDuck.jfif' id='swolDuck'>
+
+		<p id='duckMessage' class='hidden'>He says "What's up champ?"</p>
+
+		<p>Welcome to the website!</p>
+
+		<ul>
+			<li>Thanks for visiting!</li>
+			<li>You are the coolest!</li>
+			<li>You are as cool as this jacked duck.</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			How did you hear about us?
+			<div id='checklist'>
+			<input type='checkbox' id="Friend" class='box' value='Friend'>
+			<label for='Friend' class='labels'>A Friend</label><br>
+
+			<input type='checkbox' id="Google"class='box' value='Google'>
+			<label for='Google' class='labels'>Google</label><br>
+
+			<input type='checkbox' id="Other"class='box' value="Other">
+			<label for='Other' class='labels'>Other</label><br>
+			</div>
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+
+
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>

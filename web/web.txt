@@ -1,0 +1,9 @@
+The internet is essentially a larger group of computers sharing data.
+The computers share info with eachother over the web, and send a series or requests and responses.
+Your computer sends a request to a server, which then sends a response with the data you requested.
+This could be a web page, or all sorts of data.
+
+When you click on a link, it sends you to a page specified in the html file. 
+The target is set with a URL, or uniform resource locator.
+Clicking on the link sends a request to the specified URL, and they send you a response with the appropriate web page.
+This could be a link to another site, a link to another page on their site, or even something lieka  download.
